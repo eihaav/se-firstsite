@@ -1,0 +1,43 @@
+table, th, td {
+	border: 1px solid white;
+	border-collapse: collapse;
+	}
+th {
+	border: 2px solid white;
+	border-collapse: collapse;
+	}
+h1, h2 {
+	font-family: Arial, sans-serif;
+	font-size: 35px;
+	font-weight: bold;
+	color: #C4D4E0;
+}
+p, td, li {
+	font-family: "Courier New", sans-serif;
+	font-size: 14px;
+	color: #A4C5D5;
+	text-align: justify;
+}
+th {
+	font-family: "Courier New", sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #C4D4E0;
+	text-align: justify;
+}
+img {
+	box-shadow: 2px 3px 5px #000000;
+	border: 3px solid #A4C5D5;
+	border-radius: 90px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+body {
+	background-color: #222222;
+}
+.column {
+	float: left;
+	width: 50%;
+}
