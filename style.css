@@ -1,3 +1,8 @@
+@keyframes bordercolchange {
+	0% {border: 3px solid #A4C5D5;}
+	50% {border: 3px solid #FF781F;}
+	100% {border: 3px solid #A4C5D5;}
+}
 table, th, td {
 	border: 1px solid white;
 	border-collapse: collapse;
@@ -13,13 +18,13 @@ h1, h2 {
 	color: #C4D4E0;
 }
 p, td, li {
-	font-family: "Courier New", sans-serif;
+	font-family: Courier New, sans-serif;
 	font-size: 14px;
 	color: #A4C5D5;
 	text-align: justify;
 }
 th {
-	font-family: "Courier New", sans-serif;
+	font-family: Courier New, sans-serif;
 	font-size: 15px;
 	font-weight: bold;
 	color: #C4D4E0;
@@ -33,6 +38,9 @@ img {
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
+	animation-name: bordercolchange;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
 }
 body {
 	background-color: #222222;
